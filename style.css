@@ -202,3 +202,24 @@ footer .attribution a:hover {
     margin-right: 1.5rem;
   }
 }
+.feature-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 10%;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.feature-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.text-content, .image-content {
+  flex: 1;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+}
