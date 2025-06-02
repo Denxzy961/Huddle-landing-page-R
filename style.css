@@ -223,3 +223,13 @@ footer .attribution a:hover {
   max-width: 100%;
   height: auto;
 }
+.header-logo,
+.footer-logo {
+  text-align: left;
+}
+
+.footer-logo img,
+.header-logo img {
+  display: block;
+  max-width: 150px;
+}
